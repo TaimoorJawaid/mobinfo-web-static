@@ -1,0 +1,302 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+body{
+  margin-top: auto;
+    padding: 10px;
+}
+.topnav {
+    overflow: hidden;
+    padding-left: 40%;
+    background-color: rgb(96, 90, 182);
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.center {
+    text-align: center;
+    border: 1px solid green;
+    margin-top: auto;
+    padding: auto;
+  }
+
+div{
+    
+   
+  
+  align-content: center;
+}
+section{
+     padding-left: 300px; 
+    
+}
+.style1 {
+    color: #FF0000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+body {
+    align-content: center;
+    margin-left: 0px;
+    
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+img {
+    border: none;
+}
+
+a.noborder {
+    border: none;
+}
+
+ul.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+ul.product-list li {
+    flex: 1 0 113.33px;
+    max-width: 113.33px;
+    display: inline-block;
+    text-align: center;
+}
+
+#container {
+margin-top: 10px !important;
+}
+
+<!--
+.style8 {	font-size: 12px;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #194073;
+}
+.style9 {
+font-size: 3px;
+color: #FFFFFF;
+}
+.style56 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #FF0000;
+text-decoration: underline blink;
+}
+.style10 {font-family: Verdana, Arial, Helvetica, sans-serif}
+-->
+
+.news-item {
+width: 208px;
+float: left;
+border: 1px solid #abc4e8;
+padding: 5px;
+margin: 5px;
+margin-left: 0;
+overflow: hidden;
+text-align: left;
+}
+
+.news-item img {
+width: 100%;
+}
+
+.news-item .news-label {
+height: 44px;
+margin-top: 10px;
+display: block;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal !important;
+text-align: justify;
+margin-bottom: 0px;
+}
+
+.news-item h4 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+margin: 0;
+}
+
+.line-clamp {
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+
+<!--
+
+.border {
+
+border: 1px solid #D9DBDF;
+
+}
+
+.style5 {
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+font-size: 14px;
+
+}
+
+.upper {
+background-image: url("images/upper.gif");
+}
+
+.verticalMenu {
+background-image: url("images/shape16424016.gif");
+}
+
+.verticalMenu ul {
+list-style-type: none;
+margin: 0;
+padding-top:1px;
+padding-bottom: 1px;
+padding-left: 10px;
+padding-right: 9px;
+}
+
+.verticalMenu ul li {
+text-align: left;
+margin-left: 1px;
+margin-top:1px;
+margin-bottom: 2px;
+}
+
+.verticalMenu ul li.center {
+text-align: center;
+}
+
+.heading {
+display: block;
+height:23px;
+line-height: 23px;
+margin: 0px;
+text-align: center;
+background-image: url("images/roundrect14918782.gif");
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.verticalMenu ul li span {
+vertical-align: middle;
+}
